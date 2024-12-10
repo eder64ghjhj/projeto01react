@@ -1,12 +1,14 @@
-import React from 'react';
-import ListaDeTarefas from './ListadeTarefas';
+import './App.css'
+import ListaDeTarefas from './components/ListaDeTarefas'
 
 function App() {
+
+
   return (
-    <div className="App">
-      <ListaDeTarefas />
-    </div>
+    <>
+    <ListaDeTarefas/>
+    </>
   )
 }
 
-export default App;
+export default App
